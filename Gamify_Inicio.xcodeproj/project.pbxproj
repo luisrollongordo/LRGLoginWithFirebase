@@ -9,19 +9,27 @@
 /* Begin PBXBuildFile section */
 		1345C0C71DF9BCBF00175780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345C0C61DF9BCBF00175780 /* AppDelegate.swift */; };
 		1345C0C91DF9BCBF00175780 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345C0C81DF9BCBF00175780 /* ViewController.swift */; };
-		1345C0CC1DF9BCBF00175780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1345C0CA1DF9BCBF00175780 /* Main.storyboard */; };
 		1345C0CE1DF9BCBF00175780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1345C0CD1DF9BCBF00175780 /* Assets.xcassets */; };
 		1345C0D11DF9BCBF00175780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1345C0CF1DF9BCBF00175780 /* LaunchScreen.storyboard */; };
+		1345C0D91DF9C78A00175780 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1345C0D81DF9C78A00175780 /* GoogleService-Info.plist */; };
+		137D22511DF9F0780019A92A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137D22501DF9F0780019A92A /* Main.storyboard */; };
+		61BFBB10DF9938B34B7B2AE4 /* libPods-Gamify_Inicio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3947E2265D1166C9C6B1E0EA /* libPods-Gamify_Inicio.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		132B2EA21DF9D75F00181451 /* Gamify_Inicio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gamify_Inicio.entitlements; sourceTree = "<group>"; };
+		132B2EA41DF9E1FF00181451 /* Gamify-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Gamify-Bridging-Header.h"; sourceTree = "<group>"; };
 		1345C0C31DF9BCBF00175780 /* Gamify_Inicio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gamify_Inicio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1345C0C61DF9BCBF00175780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1345C0C81DF9BCBF00175780 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1345C0CB1DF9BCBF00175780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1345C0CD1DF9BCBF00175780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1345C0D01DF9BCBF00175780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1345C0D21DF9BCBF00175780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1345C0D81DF9C78A00175780 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		137D22501DF9F0780019A92A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3947E2265D1166C9C6B1E0EA /* libPods-Gamify_Inicio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gamify_Inicio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7FBFDC03B0A7B28D4F28B3 /* Pods-Gamify_Inicio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gamify_Inicio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gamify_Inicio/Pods-Gamify_Inicio.debug.xcconfig"; sourceTree = "<group>"; };
+		42533700F1981606C03B6178 /* Pods-Gamify_Inicio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gamify_Inicio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gamify_Inicio/Pods-Gamify_Inicio.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61BFBB10DF9938B34B7B2AE4 /* libPods-Gamify_Inicio.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		132B2EA31DF9E19D00181451 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1345C0D21DF9BCBF00175780 /* Info.plist */,
+				132B2EA41DF9E1FF00181451 /* Gamify-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			path = Gamify_Inicio;
+			sourceTree = "<group>";
+		};
 		1345C0BA1DF9BCBF00175780 = {
 			isa = PBXGroup;
 			children = (
 				1345C0C51DF9BCBF00175780 /* Gamify_Inicio */,
+				132B2EA31DF9E19D00181451 /* Supporting Files */,
 				1345C0C41DF9BCBF00175780 /* Products */,
+				C9D889B3F672499B992A19EA /* Pods */,
+				D314EE28C17CA81797C32EEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +76,32 @@
 		1345C0C51DF9BCBF00175780 /* Gamify_Inicio */ = {
 			isa = PBXGroup;
 			children = (
+				132B2EA21DF9D75F00181451 /* Gamify_Inicio.entitlements */,
+				1345C0D81DF9C78A00175780 /* GoogleService-Info.plist */,
 				1345C0C61DF9BCBF00175780 /* AppDelegate.swift */,
 				1345C0C81DF9BCBF00175780 /* ViewController.swift */,
-				1345C0CA1DF9BCBF00175780 /* Main.storyboard */,
 				1345C0CD1DF9BCBF00175780 /* Assets.xcassets */,
 				1345C0CF1DF9BCBF00175780 /* LaunchScreen.storyboard */,
-				1345C0D21DF9BCBF00175780 /* Info.plist */,
+				137D22501DF9F0780019A92A /* Main.storyboard */,
 			);
 			path = Gamify_Inicio;
+			sourceTree = "<group>";
+		};
+		C9D889B3F672499B992A19EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A7FBFDC03B0A7B28D4F28B3 /* Pods-Gamify_Inicio.debug.xcconfig */,
+				42533700F1981606C03B6178 /* Pods-Gamify_Inicio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D314EE28C17CA81797C32EEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3947E2265D1166C9C6B1E0EA /* libPods-Gamify_Inicio.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +111,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1345C0D51DF9BCBF00175780 /* Build configuration list for PBXNativeTarget "Gamify_Inicio" */;
 			buildPhases = (
+				070476B8B4EDDAC8C2BBB488 /* [CP] Check Pods Manifest.lock */,
 				1345C0BF1DF9BCBF00175780 /* Sources */,
 				1345C0C01DF9BCBF00175780 /* Frameworks */,
 				1345C0C11DF9BCBF00175780 /* Resources */,
+				8D3C24ACC3CC8F5B9B0E3D9A /* [CP] Embed Pods Frameworks */,
+				90AEDBA04399EA8E04DA5F33 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +141,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 2NAFC97M9Y;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,12 +173,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				1345C0D11DF9BCBF00175780 /* LaunchScreen.storyboard in Resources */,
+				1345C0D91DF9C78A00175780 /* GoogleService-Info.plist in Resources */,
 				1345C0CE1DF9BCBF00175780 /* Assets.xcassets in Resources */,
-				1345C0CC1DF9BCBF00175780 /* Main.storyboard in Resources */,
+				137D22511DF9F0780019A92A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		070476B8B4EDDAC8C2BBB488 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D3C24ACC3CC8F5B9B0E3D9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gamify_Inicio/Pods-Gamify_Inicio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90AEDBA04399EA8E04DA5F33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gamify_Inicio/Pods-Gamify_Inicio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1345C0BF1DF9BCBF00175780 /* Sources */ = {
@@ -145,14 +242,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1345C0CA1DF9BCBF00175780 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1345C0CB1DF9BCBF00175780 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1345C0CF1DF9BCBF00175780 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -257,8 +346,10 @@
 		};
 		1345C0D61DF9BCBF00175780 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7FBFDC03B0A7B28D4F28B3 /* Pods-Gamify_Inicio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gamify_Inicio/Gamify_Inicio.entitlements;
 				DEVELOPMENT_TEAM = 2NAFC97M9Y;
 				INFOPLIST_FILE = Gamify_Inicio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -270,8 +361,10 @@
 		};
 		1345C0D71DF9BCBF00175780 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42533700F1981606C03B6178 /* Pods-Gamify_Inicio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gamify_Inicio/Gamify_Inicio.entitlements;
 				DEVELOPMENT_TEAM = 2NAFC97M9Y;
 				INFOPLIST_FILE = Gamify_Inicio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -300,6 +393,7 @@
 				1345C0D71DF9BCBF00175780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
